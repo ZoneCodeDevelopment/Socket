@@ -1,0 +1,12 @@
+{
+    "config": {
+        "PORT": 8777,
+        "KEY": "7gzVgK758ZvjHtKn"
+    },
+    "privateConfig": {
+        "KEY": "pvkey"
+    },
+    "eventMap": {
+        "testSocket": "TestSocket"
+    }
+}

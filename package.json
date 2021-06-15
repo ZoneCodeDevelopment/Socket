@@ -1,0 +1,19 @@
+{
+  "name": "zsocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Socket.js",
+  "scripts": {
+    "test": "nodemon Socket.js"
+  },
+  "author": "ByteOverflow",
+  "license": "Apache2",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
