@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
         event = req.query.event,
         args = req.query.args
 
-        if(args.indexOf(';') > -1) {
+        if(args.indexOf(';') > 0) {
             args = req.query.args.toString().split(';')
         }
     if (key === config.config.KEY) {
